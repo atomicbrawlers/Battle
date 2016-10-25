@@ -1,0 +1,76 @@
+/* RANDOM BATTLE REVAMP
+
+   Main
+      Mob
+         Each type of mob
+      Player
+         Each class
+      Utiliy
+         -Class selector?
+         -Output?
+         -Damage calculations?
+         -Etc.
+         -Attack?
+   The health tab-over is a preset constant (calculate by analyzing ALL the possible attacks and the max length)
+   Each monster does their own attack display using the tab-over constant (check player health after each attack)
+   
+*/
+
+/*** ATTACKS ***/
+
+/* Monster Attacks
+   Wight:   Tears at your skin ()                  Jumps on and attacks ()             Trys to gnaw at ()
+   Goblin:  Swing club ()                          Throws a spear ()                   Swings his sack ()
+   Hag:     Giggles in laugher as you ()           Tosses a bottle of acid ()          Casts a spell ()
+   Kobold:  Throws rocks ()                        Slashes claws at ()                 Tackles ()
+   Banshee: Screeches ()                           Sends a spirit on ()                Darkens your mind ()       's touch makes you turn cold ()
+*/
+
+/* Player Attacks
+   Hunter:        
+   Berserker:
+   Thief:
+   Warlock:
+   Alchemist:
+*/
+
+//BOSS? Whelpling? Lich?
+
+/*Example Battle prompts
+
+The 1st zombie bit you for 8 damage!                 (92 health left)
+The spider missed!                                   (92 health left)
+The 2nd zombie scratched you for 4 damage!           (88 health left)
+The skeleton shot you for 14 damage! *Critical hit!* (74 health left)
+
+You did 9 damage to the 1st Zombie!                  (11 health left)
+You did 5 damage to all enemies!                     (6,15,15,15 health left) //don't do AOE attacks in this program b/c no clean way to denote them
+
+*1st Zombie has been defeated!*
+
+The spider spit acid at your for 7 damage!           (3 health left)
+The 2nd zombie bit you for 6 damage!                 (0 health left)
+*You died!*
+
+*/
+
+/*Notes
+
+have 3+ different attacks; attacks vary in damage depending on monster
+have 3+ special attacks that consume stamina (stamina restores by fixed amount each turn)
+have a way to restore stamina
+
+make 5+ kinds of monsters
+can fight up to 5 monsters
+add rare chance for a horde of 10 hispters
+
+check for more than 1 of same monster
+   //make string to store {1st,2nd,3rd,...} up to max # of monsters
+   //add string value in front of monster's name
+
+check for how far health update should go
+   //find length of output string to determine how many '/t' to use 
+   
+use arrays to store different kinds of attacks
+
+*/
