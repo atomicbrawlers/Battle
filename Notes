@@ -1,5 +1,6 @@
 /* RANDOM BATTLE REVAMP
-
+	
+   First Idea
    Main
       Mob
          Each type of mob
@@ -13,6 +14,32 @@
          -Attack?
    The health tab-over is a preset constant (calculate by analyzing ALL the possible attacks and the max length)
    Each monster does their own attack display using the tab-over constant (check player health after each attack)
+   
+   Second Idea
+   Utility
+   	-Main
+		The main overall cycle.
+   	-Attack
+   
+   Types
+   	-Mob
+   		The base for any given mob.
+	-Player
+		The base for the player.
+	
+	Classes
+	 -Mob
+	 	-Banshee
+	 	-Goblin
+	 	-Hag
+	 	-Kobold
+	 	-Wight
+ 	 -Player
+ 	 	-Alchemist
+ 	 	-Berserker
+ 	 	-Hunter
+ 	 	-Thief
+ 	 	-Warlock   		
    
 */
 
